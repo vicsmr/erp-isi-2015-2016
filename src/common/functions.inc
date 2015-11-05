@@ -28,7 +28,8 @@
  * @param String $url Link to the module
  */
 function main_menu_element($str,$url) {
-    $str = '<div class="main_menu_element"><p><a href="'.$url.'">'.
-            $str.'</a></p>\n';
-            
+    $res = '<div class="main_menu_element"><p><a href="'.$url.'">'.
+            $str.'</a></p></div>';
+ 
+    return $res;
 }
